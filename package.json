@@ -1,6 +1,6 @@
 {
   "name": "@fozikio/tools-maintenance",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Maintenance tools plugin for cortex-engine",
   "type": "module",
   "main": "dist/index.js",
