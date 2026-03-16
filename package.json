@@ -1,6 +1,6 @@
 {
   "name": "@fozikio/tools-maintenance",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Memory maintenance for AI agents — cleanup, deduplication, and health checks. Plugin for cortex-engine.",
   "type": "module",
   "main": "dist/index.js",
