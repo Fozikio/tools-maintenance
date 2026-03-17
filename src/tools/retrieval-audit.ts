@@ -5,7 +5,7 @@
  * which heuristic rules misfire, and where routing may be suboptimal.
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
 
 const RETRIEVAL_TRACES = 'retrieval_traces';
 

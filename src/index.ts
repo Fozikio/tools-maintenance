@@ -6,7 +6,7 @@
  * Uses the generic CortexStore API and engine functions.
  */
 
-import type { ToolPlugin } from 'cortex-engine';
+import type { ToolPlugin } from '@fozikio/cortex-engine';
 import { retrieveTool } from './tools/retrieve.js';
 import { forgetTool } from './tools/forget.js';
 import { findDuplicatesTool } from './tools/find-duplicates.js';

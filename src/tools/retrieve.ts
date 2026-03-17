@@ -6,7 +6,7 @@
  * retrieve, this is a straightforward store operation.
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
 
 export const retrieveTool: ToolDefinition = {
   name: 'retrieve',

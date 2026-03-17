@@ -6,8 +6,8 @@
  * and reschedules as if the concept was "forgotten" (rating=1).
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
-import { scheduleNext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
+import { scheduleNext } from '@fozikio/cortex-engine';
 
 export const forgetTool: ToolDefinition = {
   name: 'forget',

@@ -5,7 +5,7 @@
  * and current sleep pressure.
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
 
 const CONSOLIDATION_HISTORY = 'consolidation_history';
 const SYSTEM_COLLECTION = 'system';
