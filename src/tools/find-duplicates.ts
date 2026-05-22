@@ -15,6 +15,9 @@ export const findDuplicatesTool: ToolDefinition = {
   name: 'find_duplicates',
   description:
     'Detect near-duplicate memories and optionally merge them. Returns pairs with similarity above threshold. Set merge=true to auto-merge (keeps higher-salience entry).',
+  category: 'maintenance',
+  whenToUse:
+    'When auditing memory for near-duplicate concepts that could be merged or pruned.',
   inputSchema: {
     type: 'object',
     properties: {

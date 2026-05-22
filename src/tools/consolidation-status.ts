@@ -14,6 +14,9 @@ export const consolidationStatusTool: ToolDefinition = {
   name: 'consolidation_status',
   description:
     'Read-only: last dream summary, consolidation quality trend (last 7 dreams), and sleep pressure.',
+  category: 'maintenance',
+  whenToUse:
+    'When checking how recently the agent consolidated memories and whether sleep pressure is building.',
   inputSchema: {
     type: 'object',
     properties: {

@@ -18,10 +18,10 @@
     "node": ">=20"
   },
   "peerDependencies": {
-    "@fozikio/cortex-engine": "^0.9.2"
+    "@fozikio/cortex-engine": "^1.0.0"
   },
   "devDependencies": {
-    "@fozikio/cortex-engine": ">=0.1.0",
+    "@fozikio/cortex-engine": "file:../cortex-engine",
     "typescript": "^5.7.0"
   },
   "keywords": [

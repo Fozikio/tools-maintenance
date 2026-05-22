@@ -13,6 +13,9 @@ export const forgetTool: ToolDefinition = {
   name: 'forget',
   description:
     "Intentionally reduce a concept's salience. Not deletion — fading. Use when a belief is being revised and the old version should fade. Increments FSRS lapses.",
+  category: 'maintenance',
+  whenToUse:
+    'When a belief is being revised and the old version should fade rather than be deleted outright.',
   inputSchema: {
     type: 'object',
     properties: {

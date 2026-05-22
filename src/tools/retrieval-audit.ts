@@ -13,6 +13,9 @@ export const retrievalAuditTool: ToolDefinition = {
   name: 'retrieval_audit',
   description:
     'Analyze retrieval traces to find patterns — which tools get retried, which heuristic rules misfire, where routing is consistently wrong.',
+  category: 'maintenance',
+  whenToUse:
+    'When diagnosing retrieval problems — wrong tools being picked, repeated retries, or rules that misfire.',
   inputSchema: {
     type: 'object',
     properties: {

@@ -12,6 +12,9 @@ export const retrieveTool: ToolDefinition = {
   name: 'retrieve',
   description:
     'Direct retrieval — fetch a memory by ID, or perform semantic search with text. Returns matching memories with scores.',
+  category: 'maintenance',
+  whenToUse:
+    'When fetching a memory directly by ID or running a simple semantic search without router heuristics.',
   inputSchema: {
     type: 'object',
     properties: {

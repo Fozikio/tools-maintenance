@@ -15,6 +15,9 @@ export const sleepPressureTool: ToolDefinition = {
   name: 'sleep_pressure',
   description:
     'Read-only: returns sleep pressure — unconsolidated observation count, last dream time (ISO), and hours since last dream. Use when deciding whether to run a dream.',
+  category: 'maintenance',
+  whenToUse:
+    'When deciding whether to trigger a dream consolidation run.',
   inputSchema: {
     type: 'object',
     properties: {
